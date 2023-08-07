@@ -1,0 +1,53 @@
+/* Write CSS code here */
+/*   ASSIGNMENT 1
+.highlight {
+    background-color: yellow;
+}
+
+h1{
+    color: blue;
+    text-align: center;
+}
+
+p[id="special"] {
+    font-size: 20px;
+}
+
+input[type="text"]{
+    border: 10px;
+    border-color: grey;
+}
+
+a:hover{
+    color: red;
+}
+*/
+
+/*ASSIGNMENT 2*/
+
+h1{
+    color: blue;
+}
+
+p{
+    background-color: rgb(255, 255, 0);
+}
+
+.highlight {
+    color: #ff0000;
+}
+
+p[id="special"]{
+    background-color: hsl(120, 100%, 50%);
+}
+
+input{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+a:hover{
+    color: hsla(0, 100%, 50%, 0.8);
+}
+
+
+

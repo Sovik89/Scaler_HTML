@@ -1,0 +1,11 @@
+*{
+    font-family: sans-serif;
+}
+
+header h1{
+    color: #5DA9E9;
+}
+
+img[src="assets/image1.png"]{
+    width: 400px;
+}
