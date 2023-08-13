@@ -1,0 +1,93 @@
+
+.container{
+    
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: center;
+    align-items: center;
+    /*-wrap: wrap;*/
+    gap:20px;
+    flex-flow: column wrap;
+    
+}
+
+.body{
+    
+    background: url('assets/rm378-09.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*filter:blur(100px);*/
+    
+}
+
+.container_profile_pic{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:600px;
+    height: 300px;
+    border-radius: 10px;
+    /*flex-flow: column wrap;*/
+    
+}
+
+.profile_pic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 25px;
+    border-radius: 300px;
+    width: 200px;
+    height: 200px;
+}
+
+
+
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 300px;
+}
+
+img:hover{
+    transform: scale(1.15);/* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transition: transform .5s ease;
+}
+
+.skills{
+    
+    width:600px;
+    height: 160px;
+    /*border-radius: 10px;*/
+    border: 2px aquamarine solid;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.skills:hover{
+    transform: scale(1.15);/* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transition: transform .5s ease;
+}
+
+.social_media_links{
+    
+    width:600px;
+    height: 60px;
+    /*border-radius: 10px;*/
+    border: 2px aquamarine solid;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.social_media_links:hover{
+    transform: scale(1.15);/* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transition: transform .5s ease;
+}
+

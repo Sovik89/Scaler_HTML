@@ -1,0 +1,15 @@
+/* Write CSS code here */
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:20px;
+}
+
+.item{
+    width:100px;
+    height: 200px;
+    
+}

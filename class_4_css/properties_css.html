@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<!-- Please NOTE that the link to assets (like images) need to be set in global context.
+For example:
+To access an image from assets folder correct way to set src attribute is 
+
+src = 'profile.png'
+
+instead of 
+
+src = './assets/profile.png'
+-->
+
+    <head>
+        <meta charset="UTF-8">        
+        <meta name="viewport" content="width=device-width inital-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+        <title>CSS Properties</title>
+        
+        <style>
+            .box{
+                width: 100px;
+                height: 100px;
+                color: white;
+                background-color: aquamarine;
+                background-image: url("https://images.pexels.com/photos/1632790/pexels-photo-1632790.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .font{
+                
+                font-size: xx-large;
+                font-family: poppins;
+                /*font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
+                font-weight: 900;
+                font-style: italic;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            I am a box
+        </div>
+        <div class="font">
+            Scaler Academy!! 
+        </div>
+    </body>
+
+</html>
