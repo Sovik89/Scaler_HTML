@@ -1,0 +1,62 @@
+body{
+    background-color: aquamarine;
+    
+    
+}
+
+.container{
+    display: flex;
+    width: 500px;
+    height: 100vh;
+    /*padding-top: 55px;*/
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    margin: 0 auto;
+    
+}
+
+
+.stick{
+    width:10px;
+    height: 100vh;
+    background: black;
+    border-color: black;
+    border-radius: 3px;
+}
+
+.flag_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    justify-items: center;    
+    width: 490px;
+    /*-wrap: wrap;*/
+    
+
+}
+
+.orange{   
+    height: 80px;
+    width:490px;
+    /*border-radius: 10px;*/
+    background-color: orange;    
+}
+.white{   
+    height: 80px;
+    width:490px;
+    /*border-radius: 10px;*/
+    background-color: white;    
+}
+.green{   
+    height: 80px;
+    width:490px;
+    /*border-radius: 10px;*/
+    background-color: green;    
+}
+
+img{
+    height: 80px;
+    width:  80px;
+    
+}

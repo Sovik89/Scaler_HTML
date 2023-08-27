@@ -1,0 +1,103 @@
+body{
+    background: url("https://assets.nicepagecdn.com/11a8ddce/2631818/images/pexels-photo-1036623.png");
+    background-position: 100% 140px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    backdrop-filter: blur(5px);
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    padding: 15px 0;
+    background-color: #e6e6e6;
+    text-align: center;
+
+}
+
+
+header img{
+    height:50px;
+    width: 50px;
+}
+
+
+
+.page_wrapper h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.page_wrapper ol li{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.page_wrapper p{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px; 
+}
+
+.page_wrapper p span{
+    color: orangered;
+}
+
+.page_wrapper a{
+    background-color: orangered;
+    color: white;
+    margin-top: 10px;
+    padding:15px 15px ;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    border-radius: 25px;
+    margin-left: 50px;
+}
+
+.page_wrapper a:hover{
+    background-color: black;
+
+}
+
+.lists{
+    
+    margin-top: 100px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+    padding-left: 16px;
+}
+
+.lists li{
+    font-size: 24px;
+    padding-bottom: 16px;
+}
+
+footer{
+    background-color: rgb(60, 60, 60);
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+
+}
+
+footer p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer p a{
+    color: orangered;
+}

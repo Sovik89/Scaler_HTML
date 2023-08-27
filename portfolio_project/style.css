@@ -1,4 +1,5 @@
 
+
 .container{
     
     display: flex;
@@ -8,16 +9,18 @@
     /*-wrap: wrap;*/
     gap:20px;
     flex-flow: column wrap;
+    padding-top: 55px;
     
 }
 
 .body{
     
-    background: url('assets/rm378-09.jpg');
+    background: url('assets/background.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    backdrop-filter: blur(1.5px);
     /*filter:blur(100px);*/
     
 }
@@ -49,14 +52,14 @@
 
 
 
-img{
+.profile_pic img{
     width: 200px;
     height: 200px;
     object-fit: cover;
     border-radius: 300px;
 }
 
-img:hover{
+.profile_pic img:hover{
     transform: scale(1.15);/* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
     transition: transform .5s ease;
 }
@@ -66,7 +69,7 @@ img:hover{
     width:600px;
     height: 160px;
     /*border-radius: 10px;*/
-    border: 2px aquamarine solid;
+    border: 2px black solid;
     margin-top: 20px;
     border-radius: 10px;
 }
@@ -74,20 +77,64 @@ img:hover{
 .skills:hover{
     transform: scale(1.15);/* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
     transition: transform .5s ease;
+    background-color: #B0B0B0;
+    font-weight: bold;
+
+    
+}
+
+.skills h4{
+    margin-left: 25px;
+    
+}
+
+
+
+/*skills ul{
+    margin-left: 
+    25px; color: black;
+}
+
+skills ul:hover{
+    color: white;
+}*/
+.lists{    
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    padding-left: 16px;
 }
 
 .social_media_links{
-    
+    display: flex;
     width:600px;
     height: 60px;
     /*border-radius: 10px;*/
-    border: 2px aquamarine solid;
+    border: 2px black solid;
     margin-top: 10px;
     border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row; 
+    
+}
+
+.social_media_links img{
+    width: 40px; height: 40px;
+    margin-top: 10px;
 }
 
 .social_media_links:hover{
     transform: scale(1.15);/* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
     transition: transform .5s ease;
+    background-color: #B0B0B0;
+    font-weight: bold;
 }
+
+.social_media_links p{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
 
